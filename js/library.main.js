@@ -1,4 +1,4 @@
-﻿//library.main.js
+//library.main.js
  function library(){
   function Chineselibrary(name, age, sex,Obj) {
       var Student = new Object();
@@ -127,18 +127,18 @@ var src=入口._GET("uy");//Base64.decode(_GET("url"));
 //document.getElementById('player').innerHTML  = '<iframe name="zzapi" id="zzapi" src="'+ src +'" scrolling="0" frameborder="0" width="100%" height="100%" allowfullscreen="allowfullscreen"  mozallowfullscreen="mozallowfullscreen"  msallowfullscreen="msallowfullscreen" oallowfullscreen="oallowfullscreen" webkitallowfullscreen="webkitallowfullscreen"></iframe>';
     入口.插入元素('body','<C'+'h'+'i'+'n'+'e'+'s'+'e class="fixed"></'+'C'+'h'+'i'+'ne'+'se'+'>');
 	//入口.插入元素('html','<body></body>');
-	入口.插入元素('C'+'h'+'i'+'n'+'e'+'s'+'e','<div class="fixed"></div><div id="player"></div>');
+	入口.插入元素('C'+'h'+'i'+'n'+'e'+'s'+'e','<div class="fixed"></div><div id="player" onmouseover="bigImg(this)" onmouseout="normalImg(this)"></div>');
 	//入口.插入元素('body','');
 入口.iframe('player','zzapi',"zzapi",src);
-入口.插入元素('head','<style type="text/css">*{margin: 0;  } #div1{ width: 200px; height: 700px; background: lightpink; position: relative; left: -200px; top: 0px;  } #share{ width: 50px; height: 50px; line-height: 50px; text-align: center; color: aliceblue; background: darkgray; position: absolute; left: 200px; top: 250px; } .scrollbar{width: 100%px;height: 700px;margin: 0 auto;	margin: 0px;background:#F00; color:#FFF; display:block;}</style>');
+入口.插入元素('head','<style type="text/css" ID="KKK">*{margin: 0;  } #div1{ width: 200px; height: 700px; background: lightpink; position: relative; left: -200px; top: 0px;  } #share{ width: 50px; height: 50px; line-height: 50px; text-align: center; color: aliceblue; background: darkgray; position: absolute; left: 200px; top: 250px; } .scrollbar{width: 100%px;height: 700px;margin: 0 auto;	margin: 0px;background:#F00; color:#FFF; display:block;}</style>');
 入口.插入元素('C'+'h'+'i'+'n'+'e'+'s'+'e','<div id="div1"><span id="share">分享</span></div>');
-
 
 }
 load();
 
-//-------------------------------
 
+
+///---------------------file:///E:/我的文件/编程/网页源码/中文js/视频解析网/index.html?url=http://www.baidu.com&uy=http://map.baidu.com/
 
 function bigImg(x){
 	//x.style.height="64px";
